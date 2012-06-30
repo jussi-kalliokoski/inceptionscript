@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var Parser = require('../lib')
+var fs = require('fs')
+
+var parser = new Parser()
+
+var d = fs.readFileSync(process.argv[2], 'utf8')
+
+console.log(parser.parse(d))
