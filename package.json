@@ -1,0 +1,26 @@
+{
+  "name": "inceptionscript",
+  "version": "0.0.0",
+  "description": "JS macros written with JS",
+  "main": "lib",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "incept": "bin/incept"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jussi-kalliokoski/inceptionscript"
+  },
+  "keywords": [
+    "macros",
+    "build",
+    "tools"
+  ],
+  "author": "Jussi Kalliokoski",
+  "license": "MIT"
+}
