@@ -7,4 +7,4 @@ var parser = new Parser()
 
 var d = fs.readFileSync(process.argv[2], 'utf8')
 
-console.log(parser.parse(d))
+console.log(parser.parse(d, process.argv[2]))
