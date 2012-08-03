@@ -1,6 +1,6 @@
 {
   "name": "inceptionscript",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "JS macros written with JS",
   "main": "lib",
   "directories": {
